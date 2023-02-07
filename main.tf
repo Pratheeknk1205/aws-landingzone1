@@ -11,7 +11,7 @@ module "s3" {
     aws.primary_region   = aws.aft_management
     aws.secondary_region = aws.tf_backend_secondary_region
   }
-  source           = "./s"
+  source           = "./s3"
   primary_region   = var.ct_home_region
   secondary_region = var.tf_backend_secondary_region
 }
