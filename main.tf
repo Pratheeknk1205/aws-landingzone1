@@ -1,9 +1,6 @@
 # Copyright Amazon.com, Inc. or its affiliates. All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
 #
-module "packaging" {
-  source = "./modules/aft-archives"
-}
 
 module "aft_backend" {
   providers = {
